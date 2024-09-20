@@ -14,4 +14,12 @@
         <RepositoryType>git</RepositoryType>
         <PackageTags>dependency injection;di</PackageTags>
     </PropertyGroup>
+
+    <Target Name="CopyDICore" AfterTargets="Build">
+        <Copy
+            SourceFiles=".\bin\Release\netstandard2.1\DI.Core.dll"
+            DestinationFolder="..\DI.Unity\Runtime\Plugins"
+            SkipUnchangedFiles="true" />
+    </Target>
+    
 </Project>
