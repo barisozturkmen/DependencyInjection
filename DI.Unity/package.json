@@ -1,0 +1,13 @@
+{
+  "name": "di.unity",
+  "displayName": "DI.Unity",
+  "version": "1.0.0",
+  "unity": "2021.1",
+  "description": "A lightweight DI solution for Unity.",
+  "author": {
+    "name": "Baris Ozturkmen",
+    "email": "barisdozturkmen@gmail.com",
+    "url": "https://github.com/barisozturkmen/DependencyInjection"
+  },
+  "dependencies": {}
+}
